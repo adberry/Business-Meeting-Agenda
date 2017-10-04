@@ -1,0 +1,45 @@
+.modal-footer {
+border-top: 0px;
+
+
+ }
+
+body {
+  padding-top: 70px;
+}
+
+
+#alert {
+  display: none;
+}
+
+#logout{
+  float:right;
+}
+
+
+.create-account{
+  float:right;
+}
+
+
+.center {
+
+}
+
+.center img {
+  display:block;
+  margin:0 auto;
+}
+
+
+#right {
+    float: right;
+    position: relative;
+    text-align: right;
+}
+#left {
+    float: left;
+    position: relative;
+    text-align: left;
+}

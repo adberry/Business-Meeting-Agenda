@@ -1,0 +1,61 @@
+/*Matt Dellamano*/
+body {
+    background-color: burlywood;
+}
+
+form{
+    position: relative;
+    top: 0px;
+    left: 250px;
+
+}
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: initial;
+}
+
+.center {
+  margin: 0 auto;
+}
+
+
+#right {
+    float: right;
+    position: relative;
+    right: 200px;
+    text-align: right;
+}
+#left {
+    float: left;
+    position: relative;
+    left: 200px;
+    text-align: left;
+}
+
+#login {
+    float: none;
+    position: fixed;
+    top: 50px;
+    text-align: center;
+}
+
+.toolbar {
+    float: left;
+    position: absolute;
+    text-align: left;
+    bottom: 100px;
+    left: 50px;
+}
+
+.toolbar2 {
+    float: left;
+    position: absolute;
+    text-align: left;
+    bottom: 1000px;
+    left: 50px;
+}
+/*Matt Dellamano*/

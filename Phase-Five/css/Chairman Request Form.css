@@ -1,0 +1,116 @@
+@import "http://fonts.googleapis.com/css?family=Ubuntu";
+
+body{
+    background: burlywood;
+}
+
+div#main{
+    background: burlywood;
+    width:830px;
+    height:650px;
+    margin:0 auto;
+    font-family:'Ubuntu',sans-serif
+}
+div#form_sample{
+    background: cornflowerblue;
+    text-align:center;
+    border:1px solid #ccc;
+    width:800px;
+    padding:0 50px 15px;
+    margin-top:20px;
+    box-shadow:0 0 15px;
+    border-radius:6px;
+    float:left
+}
+#main h1{
+    top: 10%;
+    margin-top:40px
+
+}
+hr{
+   top: 10%;
+    margin-top:-5px
+}
+label{
+    float: inherit;
+    font-size:16px
+
+}
+input[type="text"]{
+    width:40%;
+    margin-top:10px;
+    height:35px;
+    margin-bottom:25px;
+    margin-right: 5px;
+    padding:5px;
+    border:9px solid #2BC1F2
+}
+textarea{
+    width:100%;
+    border:3px solid #2BC1F2;
+    padding:10px;
+    margin-bottom:25px;
+    margin-top:10px;
+    height:100px;
+    resize:none
+}
+input[type="submit"]{
+    width:40%;
+    padding:10px 45px;
+    margin: 5px;
+    background-color: crimson;
+    border:none;
+    color:#fff;
+    font-size:18px;
+    font-weight:700;
+    cursor:pointer;
+    font-family:'Ubuntu',sans-serif
+    
+
+}
+
+#durationbox1{
+    display: inline-block;
+    position: relative;
+    top: 350px;
+    right: 20px;
+
+
+}
+
+#durationbox2{
+    display: inline-block;
+    position: relative;
+    top: 350px;
+    right: 10px;
+
+
+}
+
+#month{
+    display: inline-block;
+    position: relative;
+    top: 390px;
+    right: 20px;
+}
+
+#day{
+    display: inline-block;
+    position: relative;
+    top: 390px;
+    right: 12px;
+}
+
+#year{
+    display: inline-block;
+    position: relative;
+    top: 390px;
+    right: 5px;
+}
+
+#agendaitem{
+
+    position: relative;
+    top: -630px;
+    right: -220px;
+}
